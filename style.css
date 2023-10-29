@@ -203,7 +203,7 @@ a {
   box-sizing: border-box;
   position: sticky;
   top: 0;
-  background: #121212;
+  background: #101010;
   padding-inline: 30px;
   z-index: 99;
 }
@@ -224,17 +224,21 @@ a {
   cursor: pointer;
 }
 
-.login {
-  background-color: black;
-  border-radius: 20px;
+.login-btn{
+  background-color: rgb(33,37,41);
   color: white;
-  border: none;
   display: flex;
-  width: 140px;
-  justify-content: space-between;
+  width: 120px;
   height: 40px;
+  justify-content: space-between;
   align-items: center;
-  cursor: pointer;
+  border: none;
+  border-radius: 100px;
+}
+.login-img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }
 .login > p {
   margin: 0 !important;
