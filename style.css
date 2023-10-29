@@ -452,7 +452,7 @@ tr:hover td:first-child>p{
   opacity: 0;
 }
 tr:hover .table-td-play{
-  opacity: 1
+  opacity: 1;
 }
 table tr:first-child {
   background-color: #12121203;
